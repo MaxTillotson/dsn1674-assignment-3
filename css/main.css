@@ -1,0 +1,65 @@
+
+html {
+  background-color: linen;
+  /*
+  Black: #000000 #000
+  White: #ffffff #fff
+  Red: #ff0000   #f00
+  Blue: #0000ff  #00f
+  Grey: #ccc, #333
+  */
+
+  color: #fff;
+
+}
+
+h1
+ {
+  color: #f00;
+  font-weight: bold;
+  font-size: 5rem;
+  line-height: 1;
+  text-shadow: -2px 5px 10px red;
+  font-family: 'PT Sans', sans-serif;
+  /*
+  text shadow:
+  horizontal offset
+  vertical offset
+  blur radius/ size
+  colour
+  */
+}
+
+p {
+  font-style: italic; /*italic, normal*/
+  text-decoration: underline; /*underline, none, line-through*/
+  text-align: center; /*left, center, right, justify*/
+  font-family: arial,sans-serif;
+
+}
+
+ol {
+  list-style-type: none;
+
+  /*decimal
+  circle
+  lower-alpha
+  lower-roman
+  upper-alpha
+  upper-roman
+  square
+  disc
+  none
+  */
+
+  padding: 0;
+}
+
+a {
+  color: #000;
+
+}
+
+a:hover {
+  color: orange;
+}
