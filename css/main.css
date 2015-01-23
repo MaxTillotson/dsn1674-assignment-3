@@ -33,22 +33,41 @@ h2
 {
   color: gray;
   font-weight: none;
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1;
-  text-shadow: 0px 0px 10px none;
+  text-shadow: 0px 0px 0px none;
   font-family: 'PT Sans', sans-serif
 }
 p {
   font-style: normal; /*italic, normal*/
   text-decoration: none; /*underline, none, line-through*/
-  text-align: center; /*left, center, right, justify*/
+  text-align: left; /*left, center, right, justify*/
   font-family: arial,sans-serif;
   color: #000;
 }
+q {
+  font-style:italic;
+  padding: 0;
 
-ol {
+
+}
+figcaption {
+  font-style: italic;
+  color: #000;
+
+}
+dl {
+  color:#000;
+
+}
+ol1 {
   color: #000;
   list-style-type: none;
+  padding: 0;
+}
+ol2 {
+  color: #000;
+  list-style-type: lower-roman;
 
   /*decimal
   circle
@@ -71,4 +90,9 @@ a {
 
 a:hover {
   color: red;
+}
+
+gainsboro {
+  color:gainsboro;
+
 }
