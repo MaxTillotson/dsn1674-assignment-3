@@ -15,11 +15,11 @@ html {
 
 h1
  {
-  color: #f00;
+  color: gray;
   font-weight: bold;
   font-size: 5rem;
   line-height: 1;
-  text-shadow: -2px 5px 10px red;
+  text-shadow: -2px 5px 10px none;
   font-family: 'PT Sans', sans-serif;
   /*
   text shadow:
@@ -29,16 +29,25 @@ h1
   colour
   */
 }
-
+h2
+{
+  color: gray;
+  font-weight: none;
+  font-size: 3rem;
+  line-height: 1;
+  text-shadow: 0px 0px 10px none;
+  font-family: 'PT Sans', sans-serif
+}
 p {
-  font-style: italic; /*italic, normal*/
-  text-decoration: underline; /*underline, none, line-through*/
+  font-style: normal; /*italic, normal*/
+  text-decoration: none; /*underline, none, line-through*/
   text-align: center; /*left, center, right, justify*/
   font-family: arial,sans-serif;
-
+  color: #000;
 }
 
 ol {
+  color: #000;
   list-style-type: none;
 
   /*decimal
@@ -56,10 +65,10 @@ ol {
 }
 
 a {
-  color: #000;
+  color: saddlebrown;
 
 }
 
 a:hover {
-  color: orange;
+  color: red;
 }
