@@ -17,9 +17,9 @@ h1
  {
   color: gray;
   font-weight: bold;
-  font-size: 5rem;
-  line-height: 1;
-  text-shadow: -2px 5px 10px none;
+  font-size: 2rem;
+  line-height: 2;
+  text-shadow: 0px 0px 0px none;
   font-family: 'PT Sans', sans-serif;
   /*
   text shadow:
@@ -32,11 +32,11 @@ h1
 h2
 {
   color: gray;
-  font-weight: none;
-  font-size: 2rem;
+  font-weight: bold;
+  font-size: 1.5rem;
   line-height: 1;
   text-shadow: 0px 0px 0px none;
-  font-family: 'PT Sans', sans-serif
+
 }
 p {
   font-style: normal; /*italic, normal*/
@@ -45,29 +45,33 @@ p {
   font-family: arial,sans-serif;
   color: #000;
 }
-q {
+blockquote {
   font-style:italic;
-  padding: 0;
-
-
+  color: #000
 }
+
+p.Neil {
+  text-align: right;
+}
+
 figcaption {
   font-style: italic;
   color: #000;
-
 }
+
 dl {
   color:#000;
-
 }
+
 ol1 {
   color: #000;
   list-style-type: none;
   padding: 0;
 }
-ol2 {
+ol {
   color: #000;
   list-style-type: lower-roman;
+
 
   /*decimal
   circle
@@ -80,7 +84,7 @@ ol2 {
   none
   */
 
-  padding: 0;
+
 }
 
 a {
@@ -90,9 +94,4 @@ a {
 
 a:hover {
   color: red;
-}
-
-gainsboro {
-  color:gainsboro;
-
 }
